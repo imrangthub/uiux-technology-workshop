@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="../../style/main.css" />
+    <link rel="stylesheet" href="../../../node_modules/admin-lte/dist/css/adminlte.min.css" />
+</head>
+<body>
+
+  <div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<div class="card">
+					<div class="card-header text-center">
+						<h2>About Page</h2>
+					</div>
+					<div th:text="${message}"></div>
+					<div class="card-body text-center">
+						<a class="btn btn-custom" href="../../main.html">Go to Home</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+    <script type="module" src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="module" src="../../../node_modules/admin-lte/dist/js/adminlte.min.js"></script>
+</body>
+</html>
