@@ -1,0 +1,29 @@
+.testcls {
+  color: red;
+}
+
+
+.navbar {
+  padding: 10px !important;
+}
+.container {
+  margin-top: 100px;
+}
+
+
+.post-id {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
